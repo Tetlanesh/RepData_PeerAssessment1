@@ -57,7 +57,6 @@ ggplot(data = histdata, mapping = aes(x = sum)) +
 The average and median values of steps across all days is:
 
 ```r
-#############
 mmdata <- histdata %>%
   summarise(mean = mean(sum), median = median(sum))
 
